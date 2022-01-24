@@ -17,7 +17,7 @@
 				"build": {
 					"builder": "ngx-build-plus:browser",
 					"options": {
-						"outputPath": "dist/mfe1",
+						"outputPath": "dist/",
 						"index": "projects/mfe1/src/index.html",
 						"main": "projects/mfe1/src/main.ts",
 						"polyfills": "projects/mfe1/src/polyfills.ts",
