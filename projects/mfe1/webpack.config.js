@@ -11,7 +11,7 @@ sharedMappings.register(
 module.exports = (_, argv) => ({
   output: {
     uniqueName: "mfe1",
-    publicPath: 'argv.mode === "development" ? "http://localhost:3000/" : https://module-federation-angular-mfe1.vercel.app/'
+    publicPath: argv.mode === "development" ? "http://localhost:3000/" : "https://module-federation-angular-mfe1.vercel.app/"
   },
   optimization: {
     runtimeChunk: false
